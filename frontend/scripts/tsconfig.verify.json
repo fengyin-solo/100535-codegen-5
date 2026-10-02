@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "../node_modules/.cache/verify",
+    "baseUrl": "..",
+    "paths": { "@/*": ["src/*"] },
+    "typeRoots": ["../node_modules/@types"]
+  },
+  "include": ["../src/data/**/*.ts", "../src/api/**/*.ts", "./verify-expense.ts"]
+}
