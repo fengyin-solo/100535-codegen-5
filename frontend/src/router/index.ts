@@ -13,6 +13,7 @@ const Survey = () => import('@/views/survey/index.vue')
 const Photo = () => import('@/views/photo/index.vue')
 const Diary = () => import('@/views/diary/index.vue')
 const Labor = () => import('@/views/labor/index.vue')
+const Expense = () => import('@/views/expense/index.vue')
 const Tool = () => import('@/views/tool/index.vue')
 const Safety = () => import('@/views/safety/index.vue')
 const Packing = () => import('@/views/packing/index.vue')
@@ -36,6 +37,7 @@ const router = createRouter({
     { path: '/photo', name: 'photo', component: Photo },
     { path: '/diary', name: 'diary', component: Diary },
     { path: '/labor', name: 'labor', component: Labor },
+    { path: '/expense', name: 'expense', component: Expense },
     { path: '/tool', name: 'tool', component: Tool },
     { path: '/safety', name: 'safety', component: Safety },
     { path: '/packing', name: 'packing', component: Packing },
